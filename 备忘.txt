@@ -1,0 +1,30 @@
+施尧恩 
+SecoClient vpn账号：shiyaoen  密码：P@ssw0rd
+http://192.168.244.3 4A账号：shiyaoen   密码：sye@2022
+linux terminal 命令：（在jupyter lab上terminal也能用）
+	cd 进入路径
+	cd .. 返回上一级路径
+	mkdir folder 新建文件夹
+	cp A/file.ipynb B/ 从路径1复制文件到路径2
+	ls 文件列表
+	lscpu CPU属性列表
+	free -h 查看内存
+	pwd 查看当前工作目录
+	pip list |greb abc 查看python已安装的名称以abc开头的包
+	top 打开线程界面，按q退出回到命令行模式
+	jupyter lab 开启一个jupyter lab服务器，获得ip地址。似乎要输这个命令才能进入chrome的lab页面，但是如果又输nohup尚未知道。
+	nohup jupyter lab --allow-root 不中断jupyter lab。no hang up（不挂起），用于在系统后台不挂断地运行命令，退出终端不会影响程序的运行
+cd YaoEn
+jupyter lab
+ 
+尚不知nohup jupyter lab --allow-root是否执行过一次就行？
+
+点击4A工具资源中的chrome，转到刚才的ip地址，输入密码gxdj237
+
+退出不需全部关闭，重新打开很麻烦，右击会话管理图标—退出程序，线程仍将在远程服务器上运行。重新开启则在4A云桌面—菜单—会话管理—恢复
+
+要保持与juypter lab的连接必须不能断开4A云桌面上的terminal
+
+BAIDU_AK: CMipaSo3VuvV2K1rHQg8PNoYVl4WaKGr
+
+激活python env: conda activate python3.7_test
